@@ -4,7 +4,7 @@ import json as js
 
 def read_csv_average_training():
 
-    df = df = pd.read_csv('...')
+    df = df = pd.read_csv('./datos/pisos_barcelona(1).csv')
     return df
 
 def create_csv_average_training(data, file):
