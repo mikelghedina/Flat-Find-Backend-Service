@@ -3,7 +3,7 @@ import json
 
 def read_csv_gracia_training():
     # df_gracia = pd.read_csv('../../datos/datasets_Pisos.com/alquiler_gracia.csv')
-    df_gracia = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquiler_gracia.csv')
+    df_gracia = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_gracia.csv')
     return df_gracia
 
 

@@ -3,7 +3,7 @@ import json
 
 def read_csv_horta_guinardo_training():
     # df_horta_guinardo = pd.read_csv('../../datos/datasets_Pisos.com/alquiler_horta_guinardo.csv')
-    df_horta_guinardo = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquiler_horta_guinardo.csv')
+    df_horta_guinardo = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_horta_guinardo.csv')
     return df_horta_guinardo
 
 

@@ -4,7 +4,7 @@ import json
 
 def read_csv_les_corts_training():
     # ../../ datos / datasets_Pisos.com / Alquileres_les_corts.csv
-    df_les_corts = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquileres_les_corts.csv')
+    df_les_corts = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/Alquileres_les_corts.csv')
     return df_les_corts
 
 print(read_csv_les_corts_training())

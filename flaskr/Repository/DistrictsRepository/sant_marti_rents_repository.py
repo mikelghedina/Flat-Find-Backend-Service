@@ -4,7 +4,7 @@ import json
 def read_csv_sant_marti_training():
 
     # ../../datos/datasets_Pisos.com/alquileres_sant_marti.csv
-    df_sant_marti = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquileres_sant_marti.csv')
+    df_sant_marti = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquileres_sant_marti.csv')
     return df_sant_marti
 
 print(read_csv_sant_marti_training())

@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 def read_csv_nou_barris_training():
-    df_nou_barris = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquiler_nou_barris.csv')
+    df_nou_barris = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_nou_barris.csv')
     return df_nou_barris
 
 

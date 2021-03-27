@@ -3,7 +3,7 @@ import json
 
 def read_csv_sants_montjuic_training():
     # ../../datos/datasets_Pisos.com/alquileres_sants_montjuic.csv
-    df_sants_montjuic = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquileres_sants_montjuic.csv')
+    df_sants_montjuic = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquileres_sants_montjuic.csv')
     return df_sants_montjuic
 
 print(read_csv_sants_montjuic_training())

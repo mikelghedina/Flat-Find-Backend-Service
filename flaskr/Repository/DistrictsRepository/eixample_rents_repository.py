@@ -3,7 +3,7 @@ import json
 
 def read_csv_eixample_training():
     # df_eixample = pd.read_csv('../../datos/datasets_Pisos.com/alquiler_eixample.csv')
-    df_eixample = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquiler_eixample.csv')
+    df_eixample = pd.read_csv('https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_eixample.csv')
     return df_eixample
 
 
