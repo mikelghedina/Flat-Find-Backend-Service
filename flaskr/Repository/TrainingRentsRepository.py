@@ -3,9 +3,9 @@ import json as js
 
 
 def read_csv_rents_training():
-
-    df = pd.read_csv('.//datos/pisos_barcelona(1).csv')
+    df = pd.read_csv('../datos/pisos_barcelona(1).csv')
     return df
+
 
 print(read_csv_rents_training())
 
@@ -21,5 +21,3 @@ print(read_csv_rents_training())
 #     trained_data_rents = json.load(file)
 
 #     return trained_data_rents
-
-
