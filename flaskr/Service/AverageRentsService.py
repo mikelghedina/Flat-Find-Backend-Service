@@ -1,4 +1,4 @@
-from flaskr.Repository import TrainingAverageRentsRepository as tarr
+from flaskr.Repository.DistrictsRepository import TrainingAverageRentsRepository as tarr
 
 
 def read_csv():
