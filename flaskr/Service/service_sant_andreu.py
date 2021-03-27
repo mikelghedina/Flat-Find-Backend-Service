@@ -5,7 +5,7 @@ import numpy as np
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training():
+def get_coef_from_training_sant_andreu():
 
     df_sant_andreu = sarr.read_csv_sant_andreu_training()
 

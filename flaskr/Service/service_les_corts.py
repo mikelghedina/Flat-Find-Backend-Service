@@ -5,7 +5,7 @@ import numpy as np
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training():
+def get_coef_from_training_les_corts():
 
     df_les_corts = lcrr.read_csv_les_corts_training()
 
