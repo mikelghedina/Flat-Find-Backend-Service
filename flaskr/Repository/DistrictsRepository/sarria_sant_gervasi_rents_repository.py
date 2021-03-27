@@ -3,7 +3,7 @@ import json
 
 def read_csv_sarria_sant_gervasi_training():
     # ../../datos/datasets_Pisos.com/Alquileres_sarria_sant_gervasi.csv
-    df_sarria_sant_gervasi = pd.read_csv('flaskr/datos/datasets_Pisos.com/Alquileres_sarria_sant_gervasi.csv')
+    df_sarria_sant_gervasi = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquileres_sarria_sant_gervasi.csv')
     return df_sarria_sant_gervasi
 
 print(read_csv_sarria_sant_gervasi_training())
