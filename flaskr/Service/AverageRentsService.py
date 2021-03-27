@@ -1,8 +1,25 @@
 from flaskr.Repository.DistrictsRepository import TrainingAverageRentsRepository as tarr
+import pandas as pd
+from scipy import stats
+import numpy as np
+import statsmodels.api as sm
+from sklearn.preprocessing import StandardScaler
 
 
-def read_csv():
-    return tarr.read_csv_rents_training()
+def get_coef_from_training():
 
+    df_eixample = tarr.read_csv_eixample_training()
 
-print(read_csv())
+    scale = StandardScaler()
+    X = df_eixample[['superficie', 'baños', 'habitaciones']]
+    Y = df_eixample['precio']
+
+    X[['superficie', 'baños', 'habitaciones']] = scale.fit_transform(X[['superficie', 'baños', 'habitaciones']].values)
+
+    X = sm.add_constant(X)
+    est = sm.OLS(Y, X).fit()
+    params = []
+    for param in est.params:
+        params = params.append(param)
+
+    return params
