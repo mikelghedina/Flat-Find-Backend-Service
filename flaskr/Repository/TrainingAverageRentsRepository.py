@@ -1,5 +1,5 @@
 import pandas as pd
-import json
+import json as js
 
 
 def read_csv_average_training():
