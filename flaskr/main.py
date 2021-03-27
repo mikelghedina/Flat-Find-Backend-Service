@@ -1,5 +1,5 @@
-from flaskr.NewService import NewService
+from NewService import NewService as s
 
-s = NewService.get_coef_from_training()
 
-print(s)
+s.trainModels()
+

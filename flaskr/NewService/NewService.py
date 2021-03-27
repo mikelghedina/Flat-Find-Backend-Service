@@ -1,20 +1,27 @@
-from .NewRepo import Repository
+from .NewRepo import Repository as r
 import statsmodels.api as sm
-from sklearn.preprocessing import StandardScaler
+import json
+import os
 
-def get_coef_from_training():
-    url = 'https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_ciutat_vella.csv'
-    df_les_corts = Repository.read_csv_ciutat_vella_training(url)
+coefs = {}
+def trainModels():
+    dataframes = r.read_training_data()
+    for df in dataframes: 
+        X = df[1][['superficie', 'baños', 'habitaciones']]
+        Y = df[1]['precio']
 
+        X = sm.add_constant(X)
+        est = sm.OLS(Y, X).fit()
+        coefs[str(df[0])] = {
+            "const": est.params[0], 
+            "superficie":est.params[1],
+            "baths":est.params[2],
+            "habitaciones":est.params[3] 
+        }
 
+    save_path = 'flaskr\datos'
+    file_name = "coefs.json"
+    completeName = os.path.join(save_path, file_name)
+    with open(completeName, 'w') as json_file:
+        json.dump(coefs,json_file)
 
-    X = df_les_corts[['superficie', 'baños', 'habitaciones']]
-    Y = df_les_corts['precio']
-
-    X = sm.add_constant(X)
-    est = sm.OLS(Y, X).fit()
-    params = []
-    for param in est.params:
-        params.append(param)
-
-    return params
