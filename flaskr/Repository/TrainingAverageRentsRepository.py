@@ -3,8 +3,8 @@ import json
 
 
 def read_csv_average_training():
-    df = df = pd.read_csv('./datos/pisos_barcelona (1).csv')
-    return df
+    df_eixample = pd.read_csv('./datos/.csv')
+    return df_eixample
 
 
 def create_csv_average_training(data, file):

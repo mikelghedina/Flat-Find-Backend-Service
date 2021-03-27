@@ -1,0 +1,289 @@
+precio,superficie,baños,habitaciones,precio/metro,Barrio
+850,78,1,3,11,Sants 
+925,56,1,3,17,Hostafrancs 
+1.100,74,1,3,15,Hostafrancs 
+1.000,92,1,4,11,Sants-Badal 
+950,87,2,4,11,Sants-Badal 
+850,65,1,2,13,Sants-Badal 
+1.100,73,1,3,15,El Poble-sec 
+931,62,1,3,15,Sants 
+1.020,79,1,2,13,La Bordeta 
+1.322,110,2,3,12,Sants 
+790,55,1,2,14,El Poble-sec 
+880,78,1,3,11,Sants-Badal 
+1.000,72,1,3,14,Hostafrancs 
+900,80,1,3,11,Sants 
+720,52,1,1,14,Sants 
+960,45,1,1,21,Hostafrancs 
+900,75,1,3,12,Sants-Badal 
+793,60,1,2,13,El Poble-sec 
+1.190,147,2,3,8,Sants 
+1.300,107,2,2,12,Sants-Badal 
+975,66,2,1,15,Sants 
+1.000,83,1,3,12,La Bordeta 
+955,64,1,3,15,El Poble-sec 
+900,75,1,2,12,Hostafrancs 
+750,60,2,2,13,Sants 
+1.100,47,2,2,23,El Poble-sec 
+1.760,88,1,2,20,Sants 
+900,66,1,3,14,El Poble-sec 
+800,58,1,3,14,Hostafrancs 
+700,45,1,1,16,Sants 
+720,55,1,1,13,Hostafrancs 
+990,79,2,4,13,Sants 
+950,95,2,3,10,Sants 
+572,34,1,1,17,Hostafrancs 
+1.250,110,2,4,11,Sants 
+1.350,112,2,5,12,El Poble-sec 
+990,82,2,4,12,Sants 
+750,68,1,3,11,El Poble-sec 
+1.170,84,2,3,14,Sants-Badal 
+760,55,1,2,14,Sants-Badal 
+690,38,1,2,18,Sants 
+800,46,1,1,17,El Poble-sec 
+750,55,1,2,14,Hostafrancs 
+950,79,1,2,12,La Bordeta 
+1.025,80,2,3,13,Sants 
+1.350,76,1,1,18,El Poble-sec 
+950,81,1,3,12,Sants 
+900,75,1,4,12,La Font de la Guatlla 
+925,53,1,1,17,El Poble-sec 
+1.100,82,1,2,13,Sants 
+1.350,71,1,3,19,Hostafrancs 
+1.150,99,1,4,12,Sants 
+750,68,1,3,11,El Poble-sec 
+675,48,1,2,14,El Poble-sec 
+1.100,87,1,1,13,Sants 
+890,88,2,3,10,Sants 
+900,54,1,3,17,Sants-Badal 
+1.100,90,2,4,12,Sants-Badal 
+1.000,59,1,2,17,El Poble-sec 
+850,47,1,1,18,Sants 
+640,50,1,2,13,Sants-Badal 
+900,80,1,4,11,Hostafrancs 
+750,50,1,2,15,El Poble-sec 
+1.100,81,2,3,14,El Poble-sec 
+950,81,1,3,12,Sants 
+1.100,75,1,3,15,Sants 
+770,71,1,2,11,La Marina del Port-Parc de Montjuïc 
+1.600,95,1,4,17,Sants 
+700,25,1,1,28,El Poble-sec 
+1.020,70,1,3,15,Hostafrancs 
+1.000,85,1,3,12,Sants-Badal 
+995,83,2,3,12,Sants 
+1.050,103,2,3,10,La Bordeta 
+1.050,50,1,2,21,El Poble-sec 
+700,70,1,2,10,Hostafrancs 
+880,68,1,3,13,El Poble-sec 
+850,65,1,1,13,Sants 
+1.150,67,1,2,17,El Poble-sec 
+870,52,1,2,17,El Poble-sec 
+690,45,1,1,15,Hostafrancs 
+900,50,1,2,18,El Poble-sec 
+790,90,1,1,9,El Poble-sec 
+1.000,60,2,2,17,El Poble-sec 
+1.140,75,1,2,15,El Poble-sec 
+1.099,147,2,3,7,Sants 
+1.690,140,2,4,12,Sants 
+1.150,87,2,3,13,Sants 
+925,91,1,3,10,Hostafrancs 
+670,52,1,1,13,Sants 
+980,66,1,2,15,La Font de la Guatlla 
+890,44,1,2,20,Sants 
+775,51,1,3,15,Sants 
+850,70,1,3,12,El Poble-sec 
+1.400,120,2,4,12,Sants 
+925,75,1,2,12,Hostafrancs 
+714,51,1,3,14,El Poble-sec 
+950,75,1,3,13,La Marina del Port-Parc de Montjuïc 
+890,79,1,3,11,El Poble-sec 
+1.250,90,2,2,14,Sants 
+662,45,1,1,15,El Poble-sec 
+990,88,2,3,11,La Font de la Guatlla 
+890,64,1,3,14,Sants 
+1.600,91,2,3,18,El Poble-sec 
+1.500,90,2,2,17,Hostafrancs 
+773,55,1,2,14,Hostafrancs 
+1.100,70,1,2,16,Sants 
+1.200,74,2,3,16,Sants 
+1.050,85,1,3,12,Sants 
+900,70,1,4,13,Sants 
+900,71,1,3,13,Sants-Badal 
+800,45,1,1,18,Sants-Badal 
+825,50,1,1,17,La Bordeta 
+1.350,86,2,3,16,Sants 
+1.160,120,2,4,10,El Poble-sec 
+1.190,90,1,3,13,El Poble-sec 
+850,67,1,2,13,La Font de la Guatlla 
+850,52,1,2,16,El Poble-sec 
+1.200,70,1,3,17,El Poble-sec 
+1.250,106,2,2,12,Sants 
+980,55,1,3,18,El Poble-sec 
+1.200,72,2,3,17,El Poble-sec 
+925,91,2,3,10,Hostafrancs 
+900,74,1,3,12,Sants-Badal 
+840,64,1,2,13,El Poble-sec 
+900,76,2,2,12,Sants 
+1.000,65,1,3,15,El Poble-sec 
+800,57,1,2,14,La Marina del Port-Parc de Montjuïc 
+1.600,160,2,3,10,Sants-Badal 
+825,70,1,3,12,Sants 
+1.760,88,1,2,20,Sants 
+1.015,100,2,4,10,Sants-Badal 
+740,45,1,1,16,La Bordeta 
+995,86,2,3,12,El Poble-sec 
+950,80,1,2,12,El Poble-sec 
+1.210,45,1,1,27,Sants 
+899,42,1,1,21,Sants 
+1.050,90,2,3,12,La Marina del Port-Parc de Montjuïc 
+690,57,1,2,12,Sants 
+1.200,50,1,2,24,Sants-Badal 
+1.320,117,2,4,11,Sants 
+750,67,1,2,11,El Poble-sec 
+1.500,90,2,3,17,El Poble-sec 
+980,57,1,2,17,Hostafrancs 
+1.200,80,1,2,15,La Bordeta 
+950,89,1,4,11,Sants 
+1.380,102,2,4,14,La Marina del Port-Parc de Montjuïc 
+1.400,96,1,4,15,Hostafrancs 
+900,35,1,1,26,Hostafrancs 
+1.140,70,1,2,16,El Poble-sec 
+850,95,1,3,9,Sants 
+900,69,1,2,13,El Poble-sec 
+1.100,80,1,3,14,Sants-Badal 
+950,75,1,3,13,Sants 
+750,60,1,2,13,Hostafrancs 
+1.050,52,1,2,20,Sants 
+950,62,1,4,15,La Bordeta 
+1.760,88,1,2,20,Sants 
+850,48,1,1,18,Sants 
+795,50,1,1,16,Hostafrancs 
+800,55,1,3,15,Sants 
+720,52,1,1,14,Sants 
+925,83,1,4,11,La Bordeta 
+1.150,54,2,2,21,El Poble-sec 
+1.000,83,1,3,12,Sants 
+975,79,1,3,12,El Poble-sec 
+690,55,1,2,13,Sants 
+660,60,1,1,11,La Marina del Port-Parc de Montjuïc 
+916,68,1,2,13,El Poble-sec 
+1.100,87,2,2,13,Hostafrancs 
+1.500,114,2,2,13,La Bordeta 
+990,92,2,2,11,El Poble-sec 
+825,50,1,2,17,Sants 
+1.100,95,2,3,12,Sants-Badal 
+830,50,1,1,17,Sants-Badal 
+650,50,1,1,13,Sants-Badal 
+800,43,1,1,19,El Poble-sec 
+900,64,2,3,14,Hostafrancs 
+1.090,59,1,2,18,El Poble-sec 
+950,100,2,3,10,La Bordeta 
+1.450,102,2,3,14,Sants-Badal 
+900,63,2,1,14,El Poble-sec 
+1.050,42,1,2,25,El Poble-sec 
+900,60,1,1,15,Sants-Badal 
+1.100,88,2,3,13,El Poble-sec 
+1.250,60,1,2,21,Sants 
+750,63,1,2,12,El Poble-sec 
+805,49,1,2,16,El Poble-sec 
+1.300,80,1,3,16,La Bordeta 
+900,75,1,3,12,Sants-Badal 
+1.050,81,1,3,13,La Marina del Port-Parc de Montjuïc 
+1.210,45,1,1,27,Sants 
+850,62,1,3,14,Sants 
+800,54,1,2,15,La Marina del Port-Parc de Montjuïc 
+900,96,1,3,9,La Marina del Port-Parc de Montjuïc 
+900,75,1,2,12,Sants 
+800,50,1,3,16,Sants-Badal 
+812,61,1,3,13,Sants 
+890,45,1,2,20,El Poble-sec 
+790,75,1,3,11,Sants-Badal 
+850,50,1,2,17,El Poble-sec 
+1.100,88,2,4,13,La Font de la Guatlla 
+1.450,106,2,4,14,Sants 
+830,67,1,3,12,Sants 
+750,55,1,2,14,La Bordeta 
+950,71,1,3,13,Sants-Badal 
+650,48,1,1,14,Sants-Badal 
+870,60,1,2,15,El Poble-sec 
+900,48,1,1,19,Sants 
+890,100,2,3,9,El Poble-sec 
+1.250,60,1,2,21,Sants 
+827,66,1,3,13,Sants-Badal 
+750,55,1,2,14,Sants-Badal 
+1.050,100,2,4,11,La Bordeta 
+950,81,1,3,12,El Poble-sec 
+1.000,65,1,3,15,El Poble-sec 
+1.290,60,1,2,22,La Bordeta 
+1.250,79,2,2,16,La Bordeta 
+680,37,1,1,18,El Poble-sec 
+1.150,100,2,3,12,El Poble-sec 
+780,46,1,1,17,Sants 
+1.000,96,1,3,10,El Poble-sec 
+940,62,1,2,15,El Poble-sec 
+1.050,98,1,3,11,La Bordeta 
+815,60,1,3,14,Sants 
+940,62,1,2,15,El Poble-sec 
+850,60,1,2,14,El Poble-sec 
+793,35,1,1,23,El Poble-sec 
+1.300,69,1,3,19,El Poble-sec 
+832,65,1,3,13,El Poble-sec 
+900,65,1,3,14,Sants-Badal 
+850,80,1,3,11,La Marina del Port-Parc de Montjuïc 
+900,75,1,3,12,Sants-Badal 
+1.050,76,1,3,14,Sants 
+890,88,2,3,10,Sants-Badal 
+1.000,75,1,3,13,Sants-Badal 
+1.000,55,1,2,18,El Poble-sec 
+1.800,90,1,4,20,Sants 
+820,64,1,2,13,La Bordeta 
+790,65,1,3,12,Sants-Badal 
+900,71,2,2,13,La Bordeta 
+1.150,75,1,3,15,La Marina del Port-Parc de Montjuïc 
+770,55,1,1,14,El Poble-sec 
+890,70,1,3,13,Sants 
+1.400,119,2,4,12,Sants-Badal 
+1.300,140,1,3,9,El Poble-sec 
+800,64,1,3,13,Sants 
+1.100,75,1,3,15,Sants 
+767,61,1,2,13,Sants 
+900,72,1,2,13,La Font de la Guatlla 
+900,75,1,3,12,Sants-Badal 
+1.170,95,2,4,12,Sants 
+900,65,1,1,14,Sants 
+1.000,82,1,3,12,Sants-Badal 
+1.000,70,1,2,14,Sants 
+650,55,1,1,12,La Bordeta 
+1.760,88,1,2,20,Sants 
+800,40,1,1,20,El Poble-sec 
+1.000,69,1,1,14,El Poble-sec 
+825,74,1,2,11,Hostafrancs 
+1.000,71,1,3,14,Sants-Badal 
+585,50,1,1,12,El Poble-sec 
+800,59,1,3,14,Sants-Badal 
+1.200,85,2,3,14,Sants 
+790,62,1,2,13,El Poble-sec 
+1.450,150,2,5,10,El Poble-sec 
+1.800,80,1,2,23,El Poble-sec 
+1.400,80,2,3,18,La Font de la Guatlla 
+950,70,1,3,14,Sants 
+950,92,2,4,10,Sants 
+825,70,1,3,12,Sants-Badal 
+1.250,76,1,2,16,El Poble-sec 
+800,85,1,3,9,El Poble-sec 
+1.100,95,2,3,12,La Bordeta 
+790,55,1,4,14,El Poble-sec 
+850,50,1,2,17,El Poble-sec 
+969,59,1,3,16,Sants 
+800,77,1,3,10,Hostafrancs 
+850,73,1,3,12,La Bordeta 
+2.000,140,2,4,14,La Font de la Guatlla 
+1.000,65,1,2,15,El Poble-sec 
+930,50,1,3,19,El Poble-sec 
+950,75,1,3,13,La Bordeta 
+840,65,1,3,13,El Poble-sec 
+990,81,1,3,12,Sants 
+950,57,1,2,17,El Poble-sec 
+999,65,2,3,15,Sants-Badal 
+825,60,1,2,14,El Poble-sec 
+1.210,45,1,1,27,Sants 

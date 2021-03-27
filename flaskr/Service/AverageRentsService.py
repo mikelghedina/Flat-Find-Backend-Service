@@ -1,8 +1,8 @@
-from flaskr.Repository import TrainingRentsRepository as trs
+from flaskr.Repository import TrainingAverageRentsRepository as tarr
 
 
 def read_csv():
-    return trs.read_csv_rents_training()
+    return tarr.read_csv_rents_training()
 
 
 print(read_csv())
