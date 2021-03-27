@@ -1,7 +1,5 @@
 from flaskr.Repository.DistrictsRepository import TrainingAverageRentsRepository as tarr
-import pandas as pd
-from scipy import stats
-import numpy as np
+
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
@@ -23,3 +21,6 @@ def get_coef_from_training():
         params = params.append(param)
 
     return params
+
+
+
