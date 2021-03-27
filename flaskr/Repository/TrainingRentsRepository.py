@@ -9,15 +9,15 @@ def read_csv_rents_training():
 
 print(read_csv_rents_training())
 
-# def create_csv_rents_trained(data, file):
+def create_csv_rents_trained(data, file):
 
-#     with open('trained_data_rents.json', 'w') as file:
-#     json.dump(data, file, indent=4)
+    with open('trained_data_rents.json', 'w') as file:
+    json.dump(data, file, indent=4)
 
 
-# def read_csv_rents_trained():
+def read_csv_rents_trained():
 
-#     with open('trained_data_rents.json') as file:
-#     trained_data_rents = json.load(file)
+    with open('trained_data_rents.json') as file:
+    trained_data_rents = json.load(file)
 
-#     return trained_data_rents
+    return trained_data_rents
