@@ -5,7 +5,7 @@ import numpy as np
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training():
+def get_coef_from_training_sants_montjuic():
 
     df_sants_montjuic = smrr.read_csv_sants_montjuic_training()
 

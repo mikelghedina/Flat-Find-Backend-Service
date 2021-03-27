@@ -5,7 +5,7 @@ import numpy as np
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training():
+def get_coef_from_training_sarria_sant_gervasi():
 
     df_sarria_sant_gervasi = ssgrr.read_csv_sarria_sant_gervasi_training()
 

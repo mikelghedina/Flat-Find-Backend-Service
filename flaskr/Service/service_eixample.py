@@ -1,17 +1,17 @@
-from flaskr.Repository.DistrictsRepository import sant_marti_rents_repository as smarr
+from flaskr.Repository.DistrictsRepository import eixample_rents_repository as err
 import pandas as pd
 from scipy import stats
 import numpy as np
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training_sant_marti():
+def get_coef_from_training_eixample():
 
-    df_sant_marti = smarr.read_csv_sant_marti_training()
+    df_eixample = err.read_csv_eixample_training()
 
     scale = StandardScaler()
-    X = df_sant_marti[['superficie', 'baños', 'habitaciones']]
-    Y = df_sant_marti['precio']
+    X = df_eixample[['superficie', 'baños', 'habitaciones']]
+    Y = df_eixample['precio']
 
     X[['superficie', 'baños', 'habitaciones']] = scale.fit_transform(X[['superficie', 'baños', 'habitaciones']].values)
 

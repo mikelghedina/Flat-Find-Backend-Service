@@ -2,7 +2,7 @@ from flaskr.Repository.DistrictsRepository import les_corts_rents_repository
 import statsmodels.api as sm
 from sklearn.preprocessing import StandardScaler
 
-def get_coef_from_training():
+def get_coef_from_training_les_corts():
 
     df_les_corts = les_corts_rents_repository.read_csv_les_corts_training()
 
