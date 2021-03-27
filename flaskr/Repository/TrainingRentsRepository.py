@@ -1,5 +1,5 @@
 import pandas as pd
-import json as js
+import json 
 
 
 def read_csv_rents_training():
