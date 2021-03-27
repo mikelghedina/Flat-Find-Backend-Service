@@ -1,4 +1,4 @@
-import TrainingRentsRepository as trs
+from flaskr.Repository import TrainingRentsRepository as trs
 
 
 def read_csv():
