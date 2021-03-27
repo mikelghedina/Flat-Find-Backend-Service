@@ -1,8 +1,10 @@
 import pandas as pd
 import json
 
+
 def read_csv_les_corts_training():
-    df_les_corts = pd.read_csv('flaskr/datos/datasets_Pisos.com/Alquileres_les_corts.csv')
+    # ../../ datos / datasets_Pisos.com / Alquileres_les_corts.csv
+    df_les_corts = pd.read_csv('../../datos/datasets_Pisos.com/Alquileres_les_corts.csv')
     return df_les_corts
 
 print(read_csv_les_corts_training())

@@ -2,6 +2,7 @@ import pandas as pd
 import json
 
 def read_csv_sants_montjuic_training():
+    # ../../datos/datasets_Pisos.com/alquileres_sants_montjuic.csv
     df_sants_montjuic = pd.read_csv('flaskr/datos/datasets_Pisos.com/alquileres_sants_montjuic.csv')
     return df_sants_montjuic
 
