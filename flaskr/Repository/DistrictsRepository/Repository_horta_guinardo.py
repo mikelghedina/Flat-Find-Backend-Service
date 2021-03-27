@@ -1,3 +1,6 @@
+import pandas as pd
+import json
+
 def read_csv_average_training():
     df_horta_guinardo = pd.read_csv('../../datos/datasets_Pisos.com/alquiler_horta_guinardo.csv')
     return df_horta_guinardo
