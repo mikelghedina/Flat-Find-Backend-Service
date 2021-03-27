@@ -1,0 +1,17 @@
+{
+    "python.envFile": "${workspaceRoot}/.env",
+    "launch": {
+        "inputs": [],
+        "configurations": [{
+            "name": "Python: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "env": {"PYTHONPATH": "${workspaceRoot}/.env"},
+            "console": "integratedTerminal"
+        }],
+        "compounds": [],
+        "version": "0.2.0",
+    }
+}
