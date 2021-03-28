@@ -27,7 +27,11 @@ def trainModels():
 
 def get_coefs_by_district(districtName):
     coefsDict = r.read_trained_data()
-    
     for district in coefsDict:
         if district == districtName:
-            print(coefsDict.get(districtName))
+            subDict = coefsDict[districtName]
+    return subDict
+
+def model_inference(coefsDict,surface,baths,habs):
+    price = coefsDict['const'] + (surface * coefsDict['superficie']) + (baths * coefsDict['baths']) + (habs * coefsDict['habitaciones'])
+    return price
