@@ -1,5 +1,6 @@
 import pandas as pd
-
+import json
+import os
 
 UrlDictionari = {
     "Ciutat Vella" : 'https://raw.githubusercontent.com/mikelghedina/Flat-Find-Backend-Service/master/flaskr/datos/datasets_Pisos.com/alquiler_ciutat_vella.csv',
@@ -22,8 +23,12 @@ def read_training_data():
     return dataframes
 
 
-def read_csv_eixample_trained():
-    with open('trained_eixample_rents.json') as file:
-        trained_eixample_rents = json.load(file)
+def read_trained_data():
+    trained_data = {}
+    save_path = 'flaskr\datos'
+    file_name = "coefs.json"
+    completeName = os.path.join(save_path, file_name)
+    with open(completeName) as json_file:
+        trained_data = json.load(json_file)
+    return trained_data
 
-    return trained_eixample_rents

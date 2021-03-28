@@ -25,3 +25,9 @@ def trainModels():
     with open(completeName, 'w') as json_file:
         json.dump(coefs,json_file)
 
+def get_coefs_by_district(districtName):
+    coefsDict = r.read_trained_data()
+    
+    for district in coefsDict:
+        if district == districtName:
+            print(coefsDict.get(districtName))
