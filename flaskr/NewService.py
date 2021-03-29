@@ -1,4 +1,4 @@
-import Repository as r
+from flaskr import Repository as r
 import statsmodels.api as sm
 
 from sklearn.preprocessing import StandardScaler
