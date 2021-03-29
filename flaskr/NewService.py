@@ -14,7 +14,6 @@ def trainModels():
     for df in dataframes: 
         X = df[1][['superficie', 'baños', 'habitaciones']]
         Y = df[1]['precio']
-        print(df)
         # X[['superficie', 'baños', 'habitaciones']] = scale.fit_transform(X[['superficie', 'baños', 'habitaciones']].values)
 
         X = sm.add_constant(X)
@@ -26,7 +25,7 @@ def trainModels():
             "habitaciones":est.params[3] 
         }
 
-    save_path = 'flaskr\datos'
+    save_path = '\datos'
     file_name = "coefs.json"
     completeName = os.path.join(save_path, file_name)
     with open(completeName, 'w') as json_file:

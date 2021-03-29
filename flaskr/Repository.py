@@ -17,7 +17,6 @@ UrlDictionari = {
 def read_training_data():
     dataframes = []
     for name,url in UrlDictionari.items():
-        print(url)
         df = pd.read_csv(url)
         data = (name,df)
         dataframes.append(data)
