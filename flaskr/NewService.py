@@ -26,11 +26,13 @@ def trainModels():
             "habitaciones":est.params[3] 
         }
 
-    save_path = '\datos'
+    save_path = 'flaskr\datos'
     file_name = "coefs.json"
     completeName = os.path.join(save_path, file_name)
     with open(completeName, 'w') as json_file:
         json.dump(coefs,json_file)
+
+    return coefs
 
 
 def get_coefs_by_district(districtName):
