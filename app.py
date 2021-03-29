@@ -12,16 +12,20 @@ CORS(app)
 # print(s.model_inference(coefsDict,sup,baths,rooms))fla
 
 
-@app.route("/est/", methods=["GET", "POST"])
+@app.route("/est/", methods=["POST"])
 def estimated_price():
     district_name = request.args.get('district_name')
     sup = request.args.get('sup')
     baths = request.args.get('baths')
     rooms = request.args.get('rooms')
     price = s.model_inference(s.get_coefs_by_district(str(district_name)),float(sup),float(baths),float(rooms))
-    return jsonify({"price": round(price, 2)})
+    s.save_price(round(price, 2))
+    return "Post Success"
 
 
+@app.route("/est/result", methods=["GET"])
+def result_price():
+    return jsonify({"price": str(s.result[0])})
 
 
 @app.route("/train", methods=["GET"])
