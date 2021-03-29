@@ -14,7 +14,7 @@ def trainModels():
     for df in dataframes: 
         X = df[1][['superficie', 'baños', 'habitaciones']]
         Y = df[1]['precio']
-        print(df)
+
         # X[['superficie', 'baños', 'habitaciones']] = scale.fit_transform(X[['superficie', 'baños', 'habitaciones']].values)
 
         X = sm.add_constant(X)
@@ -32,7 +32,7 @@ def trainModels():
     with open(completeName, 'w') as json_file:
         json.dump(coefs,json_file)
 
-trainModels()
+
 def get_coefs_by_district(districtName):
     coefsDict = r.read_trained_data()
     for district in coefsDict:

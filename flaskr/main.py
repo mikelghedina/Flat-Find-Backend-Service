@@ -1,5 +1,4 @@
 import NewService as s
-import Flask 
 
 coefsDict = s.get_coefs_by_district("Eixample")
 

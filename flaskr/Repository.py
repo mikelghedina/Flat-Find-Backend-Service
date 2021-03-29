@@ -17,13 +17,11 @@ UrlDictionari = {
 def read_training_data():
     dataframes = []
     for name,url in UrlDictionari.items():
-        print(url)
         df = pd.read_csv(url)
         data = (name,df)
         dataframes.append(data)
     return dataframes
 
-read_training_data()
 
 def read_trained_data():
     trained_data = {}
