@@ -1,4 +1,4 @@
-from NewService import NewService as s
+import NewService as s
 
 coefsDict = s.get_coefs_by_district("Eixample")
 
