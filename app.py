@@ -12,7 +12,7 @@ CORS(app)
 # print(s.model_inference(coefsDict,sup,baths,rooms))fla
 
 
-@app.route("/est/", methods=["POST"])
+@app.route("/est/", methods=["POST", "GET"])
 def estimated_price():
     district_name = request.args.get('district_name')
     sup = request.args.get('sup')
