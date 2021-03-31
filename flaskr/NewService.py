@@ -1,21 +1,16 @@
 from flaskr import Repository as r
 import statsmodels.api as sm
 
-from sklearn.preprocessing import StandardScaler
 import json
 import os
 
 coefs = {}
 
 def trainModels():
-
-    # scale = StandardScaler()
     dataframes = r.read_training_data()
     for df in dataframes: 
         X = df[1][['superficie', 'baños', 'habitaciones']]
         Y = df[1]['precio']
-
-        # X[['superficie', 'baños', 'habitaciones']] = scale.fit_transform(X[['superficie', 'baños', 'habitaciones']].values)
 
         X = sm.add_constant(X)
         est = sm.OLS(Y, X).fit()
